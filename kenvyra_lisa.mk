@@ -30,7 +30,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/lisa_global/lisa:13/TKQ1.220829.002/V14.0.3.0.TKOMIXM:user/release-keys
-
 KENVYRA_OFFICIAL := false
