@@ -45,6 +45,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Firmware
+$(call inherit-product-if-exists, vendor/xiaomi/firmware/lisa/config.mk)
+
 # Miscellaneous
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
